@@ -1,0 +1,42 @@
+.slider_delay {
+    margin-bottom: 10px;
+}
+
+.subbox {
+    width: 70%;
+    margin: 30px auto 0 auto;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #EAEAEA;
+}
+
+.subbox_title {
+    padding: 5px 0 10px 0;
+    border-bottom: 1px solid #BBB;
+    text-align: center;
+    font-weight: 500;
+}
+
+.subbox_value {
+    padding: 10px 0 5px 0;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.positive {
+    color: green
+}
+
+.negative {
+    color: red
+}
+
+.title_delay .value {
+    font-weight: 700;
+}
+
+.subtitle_delay {
+    font-size: 13px;
+    font-weight: 400;
+}

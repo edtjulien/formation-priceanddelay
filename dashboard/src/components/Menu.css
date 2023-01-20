@@ -1,0 +1,84 @@
+.logo {
+    object-fit: contain;
+    width: 150px;
+    margin: 0 auto 0 auto
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 40px;
+}
+
+nav {
+    margin-top: 50px
+}
+
+nav ul {
+    height: 100%;
+    list-style-type: none;
+    margin: 0 0 0 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 20px 30px 20px
+}
+
+nav ul li a {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-family: 'Montserrat';
+    font-size: 15px;
+    letter-spacing: 0.3px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.4s;
+    padding: 9px;
+    border-radius: 10px
+}
+
+nav ul li a span {
+    padding-left: 15px;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 20%);
+}
+
+nav ul li a.active {
+    background-color: rgba(255, 255, 255, 20%);
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 60px;
+    color: rgba(255, 255, 255, 80%)
+}
+
+.profile img {
+    width: 30%;
+    margin-bottom: 15px;
+}
+
+.profile_title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.profile_subtitle {
+    font-size: 16px
+}

@@ -1,0 +1,41 @@
+{
+    "fuel": [
+        "diesel",
+        "petrol"
+    ],
+    "paint_color": [
+        "black",
+        "grey",
+        "white",
+        "silver",
+        "blue",
+        "brown"
+    ],
+    "model_key": [
+        "Citro\u00ebn",
+        "Peugeot",
+        "PGO",
+        "Renault",
+        "Audi",
+        "BMW",
+        "Mercedes",
+        "Opel",
+        "Volkswagen",
+        "Ferrari",
+        "Mitsubishi",
+        "Nissan",
+        "SEAT",
+        "Subaru",
+        "Toyota"
+    ],
+    "car_type": [
+        "convertible",
+        "coupe",
+        "estate",
+        "hatchback",
+        "sedan",
+        "subcompact",
+        "suv",
+        "van"
+    ]
+}

@@ -1,0 +1,20 @@
+* {
+    --min-width: 400px;
+}
+
+
+
+
+.data-list .container-graph {
+    margin: 15px auto 15px auto
+}
+
+.box-graph .container-graph {
+    width: calc(100% - 30px);
+    margin: 30px auto 15px auto
+}
+
+/* plotly js hack to make it more responsive */
+.svg-container {
+    width: 100% !important;
+}
