@@ -2,8 +2,8 @@
 
 **Video:** https://share.vidyard.com/watch/9u5oj8PAvU54HovXua7jr6
 
-**Dashboard demo URL:** https://dashgetaround.pages.dev
-**API demo URL:** https://apigetaround.mldatago.com/docs
+* **Dashboard demo URL:** https://dashgetaround.pages.dev
+* **API demo URL:** https://apigetaround.mldatago.com/docs
 
 Objectives of this project are:
 * To analyze the delay of checkout by rental. And provide tools to estimate the best time gap to allow between each car rental.
