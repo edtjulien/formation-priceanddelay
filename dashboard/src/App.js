@@ -23,8 +23,9 @@ function App() {
       <Router>
         <>
           <div className="app-container">
-            <div id='menu-icon'><button id="menu-icon-link">|||</button></div>
+            <div id='menu-icon'><button id="menu-icon-link" className="menu-link">|||</button></div>
             <section id="app-menu" className="app-menu">
+              <div id='menu-close'><button id="menu-close-link" className="menu-link">X</button></div>
               <Menu />
             </section>
             <div id="app-main" className="app-main">

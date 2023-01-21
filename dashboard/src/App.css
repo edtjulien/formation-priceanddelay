@@ -47,18 +47,29 @@ body {
   background-color: var(--primary-color);
   overflow: hidden;
   transition: margin 400ms ease-in-out;
+  z-index: 9998;
 }
 
 #menu-icon {
   position: fixed;
   top: 10px;
   left: 15px;
-  z-index: 1000;
   transform: rotate(90deg);
   display: none;
+  z-index: 9999;
 }
 
-#menu-icon-link {
+#menu-close {
+  position: fixed;
+  top: 10px;
+  left: -50px;
+  display: block;
+  z-index: 9999;
+  color: white;
+  transition: left 400ms ease-in-out;
+}
+
+.menu-link {
   display: block;
   text-decoration: none;
   font-weight: bold;
@@ -73,7 +84,11 @@ body {
   outline: inherit;
 }
 
-#menu-icon-link:hover {
+#menu-close .menu-link {
+  font-weight: normal;
+}
+
+.menu-link:hover {
   color: #555;
 }
 
@@ -85,7 +100,7 @@ body {
   transition: padding 100ms linear;
 }
 
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 1400px) {
   .app-menu {
     margin-left: -270px;
   }
@@ -96,6 +111,10 @@ body {
 
   #menu-icon {
     display: block;
+  }
+
+  #menu-close {
+    left: -50px;
   }
 
   .container {
@@ -140,7 +159,7 @@ h1 {
 .box-graph {
   flex-grow: 2;
   margin: 15px;
-  min-width: var(--min-width);
+  min-width: 300px;
   background-color: #FFF;
   padding: 25px;
   border-radius: 5px;

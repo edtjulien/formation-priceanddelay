@@ -23,10 +23,10 @@ export default function Menu() {
             <nav>
                 <ul>
                     <li>
-                        <Link to="/" className={pathName === '/' ? 'active' : null}><AccessTimeIcon style={{ fontSize: 18 }} /> <span>Delay optimization</span></Link>
+                        <Link id="link-board" to="/" className={pathName === '/' ? 'active' : null}><AccessTimeIcon style={{ fontSize: 18 }} /> <span>Delay optimization</span></Link>
                     </li>
                     <li>
-                        <Link to="/prices" className={pathName === '/prices' ? 'active' : null}> <EuroOutlinedIcon style={{ fontSize: 18 }} /> <span>Prices prediction</span></Link>
+                        <Link id="link-price" to="/prices" className={pathName === '/prices' ? 'active' : null}> <EuroOutlinedIcon style={{ fontSize: 18 }} /> <span>Prices prediction</span></Link>
                     </li>
                 </ul>
             </nav>
